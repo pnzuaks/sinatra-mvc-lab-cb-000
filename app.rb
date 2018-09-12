@@ -9,7 +9,7 @@ class App < Sinatra::Base
   post '/' do
     text_from_user = params[:user_text]
     @pig_text = Piglatinizer.new(text_from_user)
-    @translated
+    @translated_text = @pig_text.translate
     erb :results
   end
 
