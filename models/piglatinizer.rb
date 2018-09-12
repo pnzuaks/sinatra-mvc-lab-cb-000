@@ -1,4 +1,5 @@
 class Piglatinizer
+  
   def translate (text)
     vowels = %w{a e i o u}
     sent.gsub(/(\A|\s)\w+/) do |str|
