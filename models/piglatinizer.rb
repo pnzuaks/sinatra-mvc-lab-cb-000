@@ -2,7 +2,6 @@ class PigLatinizer
   attr_accessor :sent
 
   def piglatinize(sent)
-
     sent = sent.downcase
     vowels = ['a', 'e', 'i', 'o', 'u']
     words = sent.split(' ')
