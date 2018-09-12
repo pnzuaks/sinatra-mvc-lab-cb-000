@@ -8,13 +8,13 @@ describe 'class PigLatinizer' do
 
   it 'piglatinizes an individual word' do
     expect(words.piglatinize("pork")).to eq("orkpay")
-    expect(words.piglatinize("i")).to eq("iay")
+    expect(words.piglatinize("i")).to eq("iway")
     expect(words.piglatinize("hello")).to eq("ellohay")
     expect(words.piglatinize("please")).to eq("easeplay")
     expect(words.piglatinize("tomorrow")).to eq("omorrowtay")
-    expect(words.piglatinize("until")).to eq("untilay")
+    expect(words.piglatinize("until")).to eq("untilway")
     expect(words.piglatinize("this")).to eq("isthay")
-    expect(words.piglatinize("Enumeration")).to eq("Enumerationay")
+    expect(words.piglatinize("Enumeration")).to eq("Enumerationway")
     expect(words.piglatinize("spray")).to eq("ayspray")
     expect(words.piglatinize("prays")).to eq("ayspray")
   end
