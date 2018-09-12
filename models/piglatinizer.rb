@@ -1,5 +1,5 @@
 class Piglatinizer
-  attr_reader :text
+  attr_accessor :text
   
   def translate (text)
     vowels = %w{a e i o u}
